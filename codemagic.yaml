@@ -1,0 +1,4 @@
+workflows:
+    sample-workflow:
+        name: App Store(c)
+        instance_type: mac_mini_m1
