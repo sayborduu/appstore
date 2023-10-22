@@ -9,12 +9,11 @@ workflows:
     environment:
       ios_signing:
         distribution_type: development
-        bundle_identifier: appstr.cln
+        bundle_identifier: cc.utimes.AppStoreDemo
       vars:
-        BUNDLE_ID: "appstr.cln"
-        XCODE_WORKSPACE: "AppStoreDemo.xcodeproj" # <-- Put the name of your Xcode workspace here
+        BUNDLE_ID: "cc.utimes.AppStoreDemo"
+        XCODE_WORKSPACE: "project.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "AppStoreDemo" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 1555555551
       xcode: latest
       cocoapods: default
     scripts:
